@@ -1,7 +1,6 @@
 #include <stdio.h>
-/*
+/**
  * main - Use puts to print a line of code
- *
  * Return: 0
 */
 int main(void)
