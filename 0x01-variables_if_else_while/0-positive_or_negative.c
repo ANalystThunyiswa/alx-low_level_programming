@@ -3,8 +3,8 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* 
- * main - A program that stores a positive or negetive or zero
+/*
+ * main - Determine if a random number is positive, negative or zero.
  * Return: 0 (Success)
  */
 int main(void)
@@ -22,7 +22,7 @@ int main(void)
 	{
 		printf("%d is negetive\n", n);
 	}
-	else 
+	else
 	{
 		printf("%d is zero\n", n);
 	}
