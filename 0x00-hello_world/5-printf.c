@@ -2,7 +2,6 @@
 
 /**
  * main - Aprogram that prints a line using printf function
- *
  * Return: 0 (success)
  */
 int main(void)
