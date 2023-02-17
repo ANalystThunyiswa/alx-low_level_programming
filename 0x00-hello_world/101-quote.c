@@ -3,7 +3,7 @@
 
 /**
  * main - A program that does not use any function listed
-  in the name section of man printf or man puts
+in the name section of man printf or man puts
  * Return: Always 1 (Success)
  */
 
