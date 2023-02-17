@@ -3,7 +3,7 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/*
+/**
  * main - Determine if a random number is positive, negative or zero.
  * Return: 0 (Success)
  */
@@ -20,7 +20,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%d is negetive\n", n);
+		printf("%d is negative\n", n);
 	}
 	else
 	{
