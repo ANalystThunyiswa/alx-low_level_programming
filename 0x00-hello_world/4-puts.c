@@ -4,7 +4,7 @@
  *
  * Return: 0
 */
-int made(void)
+int main(void)
 {
 	puts("\"includeProgramming is like building a multilingual puzzle");
 	return (0);
