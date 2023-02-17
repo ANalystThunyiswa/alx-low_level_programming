@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <string.h>
+
 /**
- * main - Entry point
+ * main - A proram that prints a line using printf function
  *
- * Return: Always 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
-	printf("%s/n", "with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	Return (0);
 }
