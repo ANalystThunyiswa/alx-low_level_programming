@@ -9,13 +9,12 @@
 
 int main(void)
 {
-	char b = '0';
+	int num;
 
-	while ( b <= '9')
+	for( num = 0; num < 10; num++)
 	{
-		putchar(b);
-		b++;
+		printf("%d\n", num);
+	
 	}
-	putchar('\n');
 	return (0);
 }
