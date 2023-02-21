@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * main - A program that prints _putchar
+ * main - It's in the description
+ * @c: A program that prints _putchar
  * Return: 0 (Success)
  */
+
 
 int main(void)
 {
@@ -18,3 +20,4 @@ int main(void)
 
 	return (0);
 }
+
