@@ -11,9 +11,6 @@
 int largest_number(int a, int b, int c)
 {
     int largest;
-    int a = 972;
-    int b = -98;
-    int c = 0;
 
     if (a > b && b > c)
     {
@@ -27,8 +24,6 @@ int largest_number(int a, int b, int c)
     {
         largest = c;
     }
-    (void)a
-    (void)b
-    (void)c
+
     return (largest);
 }
