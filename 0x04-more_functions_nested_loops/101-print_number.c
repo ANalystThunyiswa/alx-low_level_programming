@@ -1,5 +1,5 @@
 #include "main.h"
-void print_integer(int m);
+void print_integer(int m)
 
 /**
  * print_number - a function that prints an integer.
@@ -18,7 +18,6 @@ void print_number(int n)
 	else
 		print_integer(n);
 }
-
 /**
  * print_integer - A function to priting n
  * @m: an input unsigned integer
