@@ -3,5 +3,5 @@
 
 #include <stdio.h>
 
-int isupper(int c)
+int _isupper(int c);
 #endif /* MAIN_H */
