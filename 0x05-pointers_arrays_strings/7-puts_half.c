@@ -6,7 +6,6 @@
  * @str: input
  * Return: print
  */
-
 void puts2(char *str)
 {
 	int longi = 0;
