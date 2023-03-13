@@ -2,8 +2,8 @@
 
 /**
  * _strncpy - copies a string up to n
- * @src: Source of the pointer to the string to copy
  * @dest: Destination of the pointer to the string
+ * @src: Source of the pointer to the string to copy
  * @n: Number of bytes to copy.
  * Return: Pointer to the destination string.
  */
