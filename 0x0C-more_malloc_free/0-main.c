@@ -10,11 +10,11 @@
  */
 int main(void)
 {
-       	char *c;
+	char *c;
 	int *i;
 	float *f;
 	double *d;
-	
+
 	c = malloc_checked(sizeof(char) * 1024);
 	printf("%p\n", (void *)c);
 	i = malloc_checked(sizeof(int) * 402);
