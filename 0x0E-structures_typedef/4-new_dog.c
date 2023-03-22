@@ -43,6 +43,7 @@ char *_strcpy(char *dest, char *src)
 	{
 		dest[i] = src[i];
 	}
+	dest[i] = '\0';
 	return (dest);
 }
 /**
@@ -73,6 +74,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 	dog->owner = malloc(sizeof(char) * (len2 + 1));
+
 	if (dog->owner == NULL)
 	{
 		free(dog);
