@@ -22,17 +22,21 @@ int create_file(const char *filename, char *text_content)
 	{
 		return (-1);
 	}
-
-	while (text_content != NULL)
+	if (text_content == NULL)
 	{
-		for (len = 0; text_content[len]; len++)
-			;
-		write_status = write(my_file, text_content, len);
-		close(my_file);
+		return (1);
 	}
+	for (len = 0; text_content[len]; len++)
+			;
+	write_status = write(my_file, text_content, len);
+	close(my_file);
+
 	if (write_status == -1)
 	{
 		return (-1);
 	}
-	return (1);
+	else
+	{
+		return (1);
+	}
 }
